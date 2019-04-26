@@ -12,6 +12,7 @@
 		38B409CE2272637D0066359E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B409CC2272637D0066359E /* Main.storyboard */; };
 		38B409D02272637F0066359E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B409CF2272637F0066359E /* Assets.xcassets */; };
 		38B409D32272637F0066359E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B409D12272637F0066359E /* LaunchScreen.storyboard */; };
+		38B409DB227264650066359E /* RotationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B409DA227264650066359E /* RotationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		38B409CF2272637F0066359E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38B409D22272637F0066359E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38B409D42272637F0066359E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38B409DA227264650066359E /* RotationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				38B409C82272637D0066359E /* AppDelegate.swift */,
 				38B409CA2272637D0066359E /* ViewController.swift */,
+				38B409DA227264650066359E /* RotationController.swift */,
 				38B409CC2272637D0066359E /* Main.storyboard */,
 				38B409CF2272637F0066359E /* Assets.xcassets */,
 				38B409D12272637F0066359E /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				38B409CB2272637D0066359E /* ViewController.swift in Sources */,
 				38B409C92272637D0066359E /* AppDelegate.swift in Sources */,
+				38B409DB227264650066359E /* RotationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

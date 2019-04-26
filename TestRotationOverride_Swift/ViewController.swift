@@ -12,9 +12,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        RotationController.shared.unlock()
     }
 
-
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        RotationController.shared.lock()
+    }
+    
+    @IBAction func rotationLockToggled(_ sender: UISwitch) {
+        RotationController.shared.isUnlocked = sender.isOn
+    }
+    
+    
 }
-
